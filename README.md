@@ -17,7 +17,7 @@ If there are cities and certain keywords mentioned, it prints out the p-code, na
 
 # Limitations
 - The Newspaper library was not tested against other media, like pdfs or tweets, but it's assumed that it wouldn't work as well.
-- When checking for the governorate names, it requires that the name not be attached to any punctuation. This is a problem, since some Yemen governorates have apostrophes in the name (e.g. "Sana’a" couldn't be found in the article)
+- When checking for the governorate names, it requires that the name not be attached to any punctuation. This is a problem, since some Yemen governorates have apostrophes in the name (e.g. "Sana’a" couldn't be found in the article). There were also a lot of other problems related to punctuation
 - Gathers keywords that may or may not be relevant to infrastructure damage (e.g. listing "hospital" as infrastructure that is affected when it is not)
 
 # Possible Future Additions
